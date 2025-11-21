@@ -9,10 +9,10 @@ namespace Modules.Content.Player.Player_Resources.View
         [SerializeField] private Image _imageBackground;
         [SerializeField] private Image _imageResource;
         [SerializeField] private TMP_Text _textResourceValue;
-
+        
         public void DisplayResource(int resourceValue)
         {
-            _textResourceValue.text = resourceValue.ToString();
+            _textResourceValue.text = $"${resourceValue.ToString()}";
         }
     }
 }
