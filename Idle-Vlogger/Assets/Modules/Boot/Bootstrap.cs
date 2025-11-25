@@ -7,17 +7,14 @@ namespace Modules.Boot
 {
     public class Bootstrap : MonoBehaviour
     {
-        [SerializeField] private ViewPlayerResources _viewPlayerResources;
-        [SerializeField] private ButtonAddResource _buttonAddResource;
+        // [SerializeField] private ViewPlayerResources _viewPlayerResources;
         
-        private void Start()
-        {
-            _buttonAddResource.Init();
-            
-            ModelPlayerResources modelPlayerResources = new();
-            
-            PresenterPlayerResources presenterPlayerResources = new(modelPlayerResources,_viewPlayerResources);
-        }
-        
+        // private void Start()
+        // {
+        //     
+        //     ModelPlayerResources modelPlayerResources = new();
+        //     
+        //     PresenterPlayerResources presenterPlayerResources = new(modelPlayerResources,_viewPlayerResources);
+        // }
     }
 }
